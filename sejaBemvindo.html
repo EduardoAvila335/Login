@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Seja bem vindo</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>🎉Seja bem vindo🎉</h1>
+
+            <p id="usuario"></p>
+
+            <button onclick="sair()" id="sair">Sair</button>
+        </header>
+        <script>
+            let usuarioNome = localStorage.getItem('nome');
+
+            if(!usuarioNome){
+                window.location.href = 'index.html';
+            }else{
+                document.getElementById('usuario').textContent = usuarioNome;
+            }
+
+            function sair(){
+                localStorage.removeItem('nome');
+                window.location.href = 'index.html';
+            }
+
+        nomeDoUsuario();
+        </script>
+    </body>
+</html>

@@ -1,0 +1,86 @@
+body{
+    background-color: rgb(190, 245, 249);
+}
+
+
+header{
+    text-align: center;
+    margin: 100px auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 350px;
+    height: 280px;
+    background-color: white;
+}
+
+input{
+    width: 280px;
+}
+
+#Login{
+    width: 280px;
+    background-color: greenyellow;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#criarconta{
+    width: 280px;
+    border: none;
+    cursor: pointer;
+}
+
+#Login:hover{
+    background-color: rgb(113, 165, 60);
+}
+
+#criarconta:hover{
+    background-color: rgb(177, 177, 177);
+}
+
+
+#criar{
+    width: 280px;
+    background-color: greenyellow;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+#criar:hover{
+    background-color: rgb(113, 165, 60);
+}
+
+
+#fazerLogin{
+    width: 280px;
+    border: none;
+    cursor: pointer;
+}
+
+
+#fazerLogin:hover{
+     background-color: rgb(177, 177, 177)
+}
+
+#usuario{
+    font-size: 30px;
+    
+}
+
+
+#sair{
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+#sair:hover{
+    background-color: brown;
+}
